@@ -1,0 +1,156 @@
+{
+  "account_login_issue": {
+    "category": "Account",
+    "description": "User cannot log in or is having trouble accessing their account",
+    "requires_escalation": false,
+    "priority_level": "medium",
+    "response_template": "I'm sorry to hear you're having trouble logging in. Please try resetting your password using the 'Forgot Password' link. If the issue persists, clear your browser cache and try again. Would you like me to raise a support ticket?"
+  },
+  "account_password_reset": {
+    "category": "Account",
+    "description": "User wants to reset or change their password",
+    "requires_escalation": false,
+    "priority_level": "low",
+    "response_template": "To reset your password, click 'Forgot Password' on the login page and enter your registered email address. You'll receive a reset link within a few minutes. Check your spam folder if you don't see it."
+  },
+  "account_update_info": {
+    "category": "Account",
+    "description": "User wants to update personal information like email, name, or phone",
+    "requires_escalation": false,
+    "priority_level": "low",
+    "response_template": "You can update your account information by going to Account Settings > Profile. If you're unable to make changes, please let me know what you'd like to update and I'll assist you."
+  },
+  "account_delete": {
+    "category": "Account",
+    "description": "User wants to delete or close their account",
+    "requires_escalation": true,
+    "priority_level": "high",
+    "response_template": "I understand you'd like to close your account. Before proceeding, please note that this action is permanent and all your data will be deleted. I'll connect you with our account management team to complete this request."
+  },
+  "billing_invoice_request": {
+    "category": "Billing",
+    "description": "User wants an invoice or billing statement",
+    "requires_escalation": false,
+    "priority_level": "low",
+    "response_template": "You can download your invoices from Billing > Invoice History in your account. If you need a specific invoice emailed to you, please provide the billing period and I'll arrange that."
+  },
+  "billing_payment_failed": {
+    "category": "Billing",
+    "description": "User's payment was declined or failed",
+    "requires_escalation": false,
+    "priority_level": "high",
+    "response_template": "I'm sorry your payment didn't go through. Common reasons include insufficient funds, expired card details, or bank restrictions. Please verify your payment method under Billing > Payment Methods and try again. If the issue continues I'll raise this with our billing team."
+  },
+  "billing_refund_request": {
+    "category": "Billing",
+    "description": "User wants a refund for a charge",
+    "requires_escalation": true,
+    "priority_level": "high",
+    "response_template": "I understand you'd like a refund. I'll need a few details: the transaction date, amount, and reason for the refund request. I'll escalate this to our billing team who will review it within 3-5 business days."
+  },
+  "billing_plan_upgrade": {
+    "category": "Billing",
+    "description": "User wants to upgrade their subscription plan",
+    "requires_escalation": false,
+    "priority_level": "medium",
+    "response_template": "You can upgrade your plan anytime from Account > Subscription. The new plan takes effect immediately and you'll be billed the prorated difference. Would you like me to walk you through the available plans?"
+  },
+  "billing_plan_cancel": {
+    "category": "Billing",
+    "description": "User wants to cancel their subscription",
+    "requires_escalation": false,
+    "priority_level": "high",
+    "response_template": "I'm sorry to hear you'd like to cancel. Your subscription will remain active until the end of the current billing period. To cancel, go to Account > Subscription > Cancel Plan. Is there anything I can do to help before you decide?"
+  },
+  "tech_app_not_working": {
+    "category": "Technical",
+    "description": "User reports the application is crashing or not loading",
+    "requires_escalation": false,
+    "priority_level": "high",
+    "response_template": "I'm sorry the app isn't working. Please try: 1) Clearing your browser cache 2) Refreshing the page 3) Trying a different browser. If you're on mobile, try reinstalling the app. Can you tell me which device and browser you're using?"
+  },
+  "tech_slow_performance": {
+    "category": "Technical",
+    "description": "User reports the application is slow or laggy",
+    "requires_escalation": false,
+    "priority_level": "medium",
+    "response_template": "I understand the slow performance is frustrating. This can sometimes be caused by browser extensions, a slow internet connection, or high server load. Try disabling extensions and checking your connection speed. Are you experiencing this on a specific page?"
+  },
+  "tech_feature_broken": {
+    "category": "Technical",
+    "description": "A specific feature or button is not working",
+    "requires_escalation": false,
+    "priority_level": "medium",
+    "response_template": "Thank you for reporting this. Could you describe exactly what happens when you try to use the feature? Any error messages you see would be very helpful. I'll log this as a technical issue and our team will investigate."
+  },
+  "tech_integration_issue": {
+    "category": "Technical",
+    "description": "User has issues with third-party integrations or APIs",
+    "requires_escalation": true,
+    "priority_level": "high",
+    "response_template": "Integration issues often require technical investigation. Could you tell me which integration is affected and what error you're seeing? I'll escalate this to our technical team who will contact you within 24 hours."
+  },
+  "order_status_check": {
+    "category": "Order",
+    "description": "User wants to know the status of their order",
+    "requires_escalation": false,
+    "priority_level": "medium",
+    "response_template": "To check your order status, please go to Orders > My Orders or provide me your order number and I'll look it up for you."
+  },
+  "order_cancel": {
+    "category": "Order",
+    "description": "User wants to cancel an order",
+    "requires_escalation": false,
+    "priority_level": "high",
+    "response_template": "I can help you cancel your order. Please provide your order number and I'll check if it's still eligible for cancellation. Orders can typically be cancelled within 24 hours of placement."
+  },
+  "order_return": {
+    "category": "Order",
+    "description": "User wants to return a product or start a return process",
+    "requires_escalation": false,
+    "priority_level": "medium",
+    "response_template": "I'm sorry the product didn't meet your expectations. To start a return, go to Orders > My Orders > Return Item. Returns are accepted within 30 days of delivery. Would you like me to initiate the return process for you?"
+  },
+  "general_greeting": {
+    "category": "General",
+    "description": "User is greeting the bot",
+    "requires_escalation": false,
+    "priority_level": "low",
+    "response_template": "Hello! Welcome to SupportIQ. I'm here to help you with any questions or issues. What can I assist you with today?"
+  },
+  "general_farewell": {
+    "category": "General",
+    "description": "User is saying goodbye",
+    "requires_escalation": false,
+    "priority_level": "low",
+    "response_template": "Thank you for contacting SupportIQ! Have a great day. Feel free to reach out anytime you need assistance. Goodbye!"
+  },
+  "general_thanks": {
+    "category": "General",
+    "description": "User is expressing gratitude",
+    "requires_escalation": false,
+    "priority_level": "low",
+    "response_template": "You're very welcome! I'm glad I could help. Is there anything else you need assistance with?"
+  },
+  "general_complaint": {
+    "category": "General",
+    "description": "User is expressing frustration or making a general complaint",
+    "requires_escalation": true,
+    "priority_level": "high",
+    "response_template": "I sincerely apologize for the experience you've had. Your feedback is important to us and I want to make this right. Could you tell me more about what happened so I can escalate this to the right team?"
+  },
+  "escalation_request": {
+    "category": "Escalation",
+    "description": "User explicitly wants to speak to a human agent",
+    "requires_escalation": true,
+    "priority_level": "high",
+    "response_template": "Understood \u2014 I'll connect you with a human agent right away. Please hold on while I transfer you. Your conversation history will be shared with the agent so you won't need to repeat yourself."
+  },
+  "fallback_unclear": {
+    "category": "Fallback",
+    "description": "Query does not match any known intent clearly",
+    "requires_escalation": false,
+    "priority_level": "low",
+    "response_template": "I'm not sure I understood your request correctly. Could you please rephrase or give me more details? I can help with account issues, billing, technical support, orders, and more."
+  }
+}

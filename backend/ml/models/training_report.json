@@ -1,0 +1,377 @@
+{
+  "lr": {
+    "cv": {
+      "accuracy": {
+        "mean": 0.7101006036217303,
+        "std": 0.04068834349130147
+      },
+      "precision_macro": {
+        "mean": 0.7384415584415585,
+        "std": 0.03754064593809553
+      },
+      "recall_macro": {
+        "mean": 0.7106060606060606,
+        "std": 0.04309534137372086
+      },
+      "f1_macro": {
+        "mean": 0.6912829594647777,
+        "std": 0.03873155818931448
+      }
+    },
+    "test": {
+      "accuracy": 0.7272727272727273,
+      "precision_macro": 0.7522727272727271,
+      "recall_macro": 0.7272727272727273,
+      "f1_macro": 0.7130099698281516
+    },
+    "classification_report": {
+      "account_delete": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1-score": 0.2857142857142857,
+        "support": 4.0
+      },
+      "account_login_issue": {
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1-score": 0.3333333333333333,
+        "support": 4.0
+      },
+      "account_password_reset": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "account_update_info": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "billing_invoice_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "billing_payment_failed": {
+        "precision": 0.42857142857142855,
+        "recall": 0.75,
+        "f1-score": 0.5454545454545454,
+        "support": 4.0
+      },
+      "billing_plan_cancel": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "billing_plan_upgrade": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "billing_refund_request": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "escalation_request": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "fallback_unclear": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1-score": 0.2857142857142857,
+        "support": 4.0
+      },
+      "general_complaint": {
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "f1-score": 0.7272727272727273,
+        "support": 4.0
+      },
+      "general_farewell": {
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1-score": 0.3333333333333333,
+        "support": 4.0
+      },
+      "general_greeting": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "general_thanks": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 4.0
+      },
+      "order_cancel": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "order_return": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "order_status_check": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 4.0
+      },
+      "tech_app_not_working": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "tech_feature_broken": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 4.0
+      },
+      "tech_integration_issue": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "tech_slow_performance": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.7522727272727271,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.7130099698281516,
+        "support": 88.0
+      },
+      "weighted avg": {
+        "precision": 0.7522727272727271,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.7130099698281516,
+        "support": 88.0
+      }
+    }
+  },
+  "svm": {
+    "cv": {
+      "accuracy": {
+        "mean": 0.7216096579476861,
+        "std": 0.03306676838236346
+      },
+      "precision_macro": {
+        "mean": 0.738874458874459,
+        "std": 0.04623142535053497
+      },
+      "recall_macro": {
+        "mean": 0.7181818181818181,
+        "std": 0.03246103831155838
+      },
+      "f1_macro": {
+        "mean": 0.7025757575757575,
+        "std": 0.03204875506056716
+      }
+    },
+    "test": {
+      "accuracy": 0.7727272727272727,
+      "precision_macro": 0.7964285714285715,
+      "recall_macro": 0.7727272727272727,
+      "f1_macro": 0.7568313000131183
+    },
+    "classification_report": {
+      "account_delete": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1-score": 0.4,
+        "support": 4.0
+      },
+      "account_login_issue": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 4.0
+      },
+      "account_password_reset": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "account_update_info": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 4.0
+      },
+      "billing_invoice_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "billing_payment_failed": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "billing_plan_cancel": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 4.0
+      },
+      "billing_plan_upgrade": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "billing_refund_request": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "escalation_request": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1-score": 0.5714285714285714,
+        "support": 4.0
+      },
+      "fallback_unclear": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1-score": 0.2857142857142857,
+        "support": 4.0
+      },
+      "general_complaint": {
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "f1-score": 0.7272727272727273,
+        "support": 4.0
+      },
+      "general_farewell": {
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1-score": 0.3333333333333333,
+        "support": 4.0
+      },
+      "general_greeting": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "general_thanks": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 4.0
+      },
+      "order_cancel": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "order_return": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "order_status_check": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 4.0
+      },
+      "tech_app_not_working": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "tech_feature_broken": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "tech_integration_issue": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 4.0
+      },
+      "tech_slow_performance": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "accuracy": 0.7727272727272727,
+      "macro avg": {
+        "precision": 0.7964285714285715,
+        "recall": 0.7727272727272727,
+        "f1-score": 0.7568313000131183,
+        "support": 88.0
+      },
+      "weighted avg": {
+        "precision": 0.7964285714285715,
+        "recall": 0.7727272727272727,
+        "f1-score": 0.7568313000131183,
+        "support": 88.0
+      }
+    }
+  },
+  "winner": "svm",
+  "winner_f1_macro": 0.7568313000131183,
+  "n_train": 352,
+  "n_test": 88,
+  "n_intents": 22,
+  "label_classes": [
+    "account_delete",
+    "account_login_issue",
+    "account_password_reset",
+    "account_update_info",
+    "billing_invoice_request",
+    "billing_payment_failed",
+    "billing_plan_cancel",
+    "billing_plan_upgrade",
+    "billing_refund_request",
+    "escalation_request",
+    "fallback_unclear",
+    "general_complaint",
+    "general_farewell",
+    "general_greeting",
+    "general_thanks",
+    "order_cancel",
+    "order_return",
+    "order_status_check",
+    "tech_app_not_working",
+    "tech_feature_broken",
+    "tech_integration_issue",
+    "tech_slow_performance"
+  ]
+}
